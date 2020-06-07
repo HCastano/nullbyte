@@ -1,0 +1,82 @@
+/* Specify in CSS */
+code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
+
+@import "style/nord.css";
+
+body {
+    background-color: var(--nord0);
+}
+
+.about {
+    border-style: dotted;
+    padding: 10px;
+    color: var(--nord5);
+}
+
+.common-paragraph {
+    white-space: normal;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.center {
+    text-align: center;
+}
+
+.ascii-art {
+    white-space: pre;
+    font-size: 1.35vw;
+}
+
+.header {
+    font-family: 'Fira Code VF', monospace;
+    color: var(--nord5);
+}
+
+.header-text {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.container {
+    font-family: 'Fira Code VF', monospace;
+    color: var(--nord5);
+}
+
+#green {
+    color: var(--nord7);
+}
+
+#blue {
+    color: var(--nord9);
+}
+
+#red {
+    color: var(--nord11);
+}
+
+#orange {
+    color: var(--nord12);
+}
+
+#yellow {
+    color: var(--nord13);
+}
+
+#purple {
+    color: var(--nord15);
+}
+
+/* unvisited link */
+a:link {
+    color: var(--nord10);
+}
+
+/* mouse over link */
+a:hover {
+    color: var(--nord8);
+}
